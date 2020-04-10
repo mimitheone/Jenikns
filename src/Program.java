@@ -21,6 +21,7 @@ public class Program {
 			else {
 				ContactsManagementView view = new ContactsManagementView();
 				view.Run();
+				
 			}
 			
 			ConsoleManager.Clear();
