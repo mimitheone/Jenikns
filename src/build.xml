@@ -1,0 +1,1 @@
+<target name="jar">     <mkdir dir="build/jar"/>     <jar destfile="build/jar/YourApplication.jar" basedir="build/classes">         <manifest>             <attribute name="Main-Class" value="path.to.your.main.Class"/>         </manifest>     </jar> </target>
